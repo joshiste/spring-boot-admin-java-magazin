@@ -1,4 +1,6 @@
-= Demo-Client
+Demo-Client
+===========
+
 Enthält die Beispiel-Anwendung die gemonitored werden soll. Zum Starten (mit aktivierter Security) einfach
 ```
 cd demo-client
@@ -11,7 +13,9 @@ Password: clientpass
 
 Zum Abschalten der Security den Parameter `-Drun.arguments=--spring.profiles.active=inseucre` mitgeben.
 
-= Demo-Server
+Demo-Server
+===========
+
 Enthält den Beispiel Spring-Boot-Admin Server. Zum Starten (mit aktivierter Security) einfach
 ```
 cd demo-server
